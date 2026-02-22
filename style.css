@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'owen';
+    src: url('./spooky-nightside/Spooky\ Nightside.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: aliceblue;
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    width: 100vw;
+    height: 10vh;
+}
+.title{
+    font-size: 45px;
+    font-family: 'owen';
+    padding: 10px;
+}
+.HeaderLinks{
+    display: flex;
+    gap: 30px;
+}
+ul{
+    list-style-type:none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+li{
+    display: flex;
+    align-items: center;
+    font-family: 'owen';
+}
+
