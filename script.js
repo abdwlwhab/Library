@@ -120,7 +120,7 @@ bookForm.addEventListener("submit", (event) => {
 });
 
 // كتب تجريبية
-addBookToLibrary("Defult", "1", "yes", "hallo");
+addBookToLibrary("Defult", "1", "yes", "Library");
 
 
 // عرض الكتب عند التحميل
