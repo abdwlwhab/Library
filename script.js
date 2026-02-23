@@ -120,10 +120,8 @@ bookForm.addEventListener("submit", (event) => {
 });
 
 // كتب تجريبية
-addBookToLibrary("ali", "44", "no", "hallo");
-addBookToLibrary("mohamed", "9", "yes", "example");
-addBookToLibrary("Book 1", 200, "yes", "Title 1");
-addBookToLibrary("Book 2", 150, "no", "Title 2");
+addBookToLibrary("Defult", "1", "yes", "hallo");
+
 
 // عرض الكتب عند التحميل
 displayBooks();
