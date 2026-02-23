@@ -26,12 +26,41 @@
             <div class="author">tomholand</div>
             <div class="pages">22</div>
           </div>
-            <div class="buttons">
-                <button class="togelRead">Read</button>
-                <button class="delet">Delet</button>
-            </div>
+          <div class="buttons">
+            <button class="togelRead">Read</button>
+            <button class="delet">Delet</button>
+          </div>
         </div>
+        <div class="addbookbtn">+</div>
       </div>
+
+      <dialog id="book-form-dialog">
+        
+        <form id="book-form">
+          <div class="formTitle">
+            <h2>Add New Book</h2>
+          </div>
+          <div class="formInput">
+            <input type="text" id="title" placeholder="Title" required />
+            <input type="text" id="author" placeholder="Author" required />
+            <input type="number" id="pages" placeholder="Pages" required />
+
+
+          </div>
+          <label>
+            Read:
+            <select id="read">
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+          </label>
+
+          <div style="margin-top: 10px" class="formButtons">
+            <button type="submit" class="formAddBook">Add Book</button>
+            <button type="button" id="close-btn">Cancel</button>
+          </div>
+        </form>
+      </dialog>
     </div>
 
     <div class="footer">Copyright © 2026 Abdelwhab. All rights reserved.</div>
